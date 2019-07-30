@@ -1,0 +1,1 @@
+copy .\user_aliases.cmd ..\plugin\script\Alias\
