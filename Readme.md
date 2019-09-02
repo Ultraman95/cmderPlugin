@@ -10,4 +10,4 @@ SDK::VS 15.0 x64 tools prompt
 cmd /k ""C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Auxiliary\Build\vcvarsall.bat"" x64 -new_console:t:"VS 15.0" -new_console:C:"%CommonProgramFiles(x86)%\microsoft shared\MSEnv\VSFileHandler.dll,38"
 
 ## 设置Cmder右键
-Cmder.exe /REGISTER ALL 管理员权限
+Cmder.exe /REGISTER ALL 管理员权限 
