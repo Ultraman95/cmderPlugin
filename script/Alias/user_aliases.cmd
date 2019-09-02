@@ -26,5 +26,5 @@ ethNet=call "%CMDER_ROOT%\plugin\script\Eth\ethnet.bat" $1
 xcxx=call "%CMDER_ROOT%\plugin\script\Xmake\C++Init.bat" $1
 ccd=call "%CMDER_ROOT%\plugin\script\Common\cdWork.bat"
 mxx=mvn clean package -U -DskipTests
-xgp=xmake project -k vs2017 -m "debug,release" -a "x86,x64" 
+genPrj=xmake project -k vsxmake -m "debug,release" -a "x86,x64" 
 aenv=call "%CMDER_ROOT%\plugin\script\Amake\build\setenv.bat
