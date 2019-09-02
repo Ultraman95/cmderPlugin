@@ -1,1 +1,1 @@
-xmake create -l c++ -P ./test%1
+xmake create -l c++ -P ./%1
