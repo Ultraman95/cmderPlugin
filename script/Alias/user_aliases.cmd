@@ -27,4 +27,6 @@ xcxx=call "%CMDER_ROOT%\plugin\script\Xmake\C++Init.bat" $1
 ccd=call "%CMDER_ROOT%\plugin\script\Common\cdWork.bat"
 mxx=mvn clean package -U -DskipTests
 genPrj=xmake project -k vsxmake -m "debug,release" -a "x86,x64" 
-aenv=call "%CMDER_ROOT%\plugin\script\Amake\build\setenv.bat
+vcenv=call "%CMDER_ROOT%\plugin\script\Amake\build\setenv_vc6.bat
+vs64env=call "%CMDER_ROOT%\plugin\script\Amake\build\setenv_vs2019_x64.bat
+vs86env=call "%CMDER_ROOT%\plugin\script\Amake\build\setenv_vs2019_x86.bat
