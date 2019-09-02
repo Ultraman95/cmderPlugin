@@ -1,1 +1,0 @@
-../../../Cmder.exe /REGISTER ALL
