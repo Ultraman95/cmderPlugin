@@ -11,3 +11,12 @@ cmd /k ""C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Auxil
 
 ## 设置Cmder右键
 Cmder.exe /REGISTER ALL 管理员权限 
+
+## 安装列表
+Shadowsocks工具
+Java-JDK
+Apache Maven
+Go环境
+Rust环境
+Xmake
+Xshell工作列表
