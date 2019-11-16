@@ -8,7 +8,7 @@ LIB32=lib
 PREP=cl -nologo -EP
 PUMP=pump
 COPY=copy /y
-DEL=del
+DEL=rm
 MAKE=nmake
 ECHO=echo
 
