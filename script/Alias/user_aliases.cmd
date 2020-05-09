@@ -34,3 +34,4 @@ vs86env=call "%CMDER_ROOT%\plugin\script\Amake\build\setenv_vs2019_x86.bat
 vcenv_apex=call "%CMDER_ROOT%\plugin\script\Amake\build_apex\setenv_vc6.bat
 vcenv_spot=call "%CMDER_ROOT%\plugin\script\Amake\build_spot\setenv_vc6.bat
 vcenv_omake=call "%CMDER_ROOT%\plugin\script\Omake\setenv_omake.bat
+vcenv_724=call "%CMDER_ROOT%\plugin\script\Omake\setenv_724.bat
