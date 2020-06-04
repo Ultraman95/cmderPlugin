@@ -1,1 +1,0 @@
-copy .\user_aliases.cmd ..\..\..\config\

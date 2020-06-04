@@ -1,1 +1,0 @@
-xmake create -l c++ -P ./%1
