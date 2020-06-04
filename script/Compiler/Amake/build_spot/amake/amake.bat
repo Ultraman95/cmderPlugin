@@ -1,3 +1,3 @@
 @echo off
-set amakeroot=C:\Tools\cmder\plugin\script\Amake\build_spot\amake
+set amakeroot=D:\Tools\cmder\plugin\script\Compiler\Amake\build_spot\amake
 nmake /NOLOGO -f %amakeroot%\windows\makefile.win prjfile=%1 amakeroot=%amakeroot%
