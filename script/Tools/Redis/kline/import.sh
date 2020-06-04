@@ -1,0 +1,1 @@
+cat ./kmin_marketData.csv | awk -F "," '{print $1" "$2" "$3" "$4" "$5" "$6" "$7" "$8" "$9}' | xargs -n9 sh -c 'redis-cli -p 6379 zadd $1 $9 "$3,$4,$8"' sh
