@@ -17,6 +17,7 @@ cmderr=cd /d "%CMDER_ROOT%"
 redisLocalClient=call "%CMDER_ROOT%\plugin\script\Tools\Redis\redis_LocalClient.bat"
 redisStart=call "%CMDER_ROOT%\plugin\script\Tools\Redis\startRedisService.bat"
 redisStop=call "%CMDER_ROOT%\plugin\script\Tools\Redis\stopRedisService.bat"
+
 ethInitMain=call "%CMDER_ROOT%\plugin\script\BlockChain\Eth\ethinit.bat" mainNode
 ethInitNode=call "%CMDER_ROOT%\plugin\script\BlockChain\Eth\ethinit.bat" $1
 ethDelNode=call "%CMDER_ROOT%\plugin\script\BlockChain\Eth\ethdel.bat" $1
@@ -24,6 +25,7 @@ ethStart=call "%CMDER_ROOT%\plugin\script\BlockChain\Eth\ethstart.bat" $1 $2 $3 
 ethDelHash=call "%CMDER_ROOT%\plugin\script\BlockChain\Eth\ethdelhash.bat"
 ethState=call "%CMDER_ROOT%\plugin\script\BlockChain\Eth\ethstate.bat"
 ethNet=call "%CMDER_ROOT%\plugin\script\BlockChain\Eth\ethnet.bat" $1
+
 xcxx=call "%CMDER_ROOT%\plugin\script\Compiler\Xmake\C++Init.bat" $1
 ccd=call "%CMDER_ROOT%\plugin\script\Common\cdWork.bat"
 mxx=mvn clean package -U -DskipTests
@@ -33,5 +35,3 @@ vs64env=call "%CMDER_ROOT%\plugin\script\Compiler\Amake\build\setenv_vs2019_x64.
 vs86env=call "%CMDER_ROOT%\plugin\script\Compiler\Amake\build\setenv_vs2019_x86.bat
 vcenv_apex=call "%CMDER_ROOT%\plugin\script\Compiler\Amake\build_apex\setenv_vc6.bat
 vcenv_spot=call "%CMDER_ROOT%\plugin\script\Compiler\Amake\build_spot\setenv_vc6.bat
-vcenv_omake=call "%CMDER_ROOT%\plugin\script\Compiler\Omake\setenv_omake.bat
-vcenv_724=call "%CMDER_ROOT%\plugin\script\Compiler\Omake\setenv_724.bat
