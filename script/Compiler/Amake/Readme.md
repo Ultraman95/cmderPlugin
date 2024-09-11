@@ -10,3 +10,11 @@
 Amake/build 和 Amake/build_apex 是有差异的, build_apex增加了一些处理函数 [build_apex是build的增强版，处理apex的程序尽量使用build_apex来处理]
 
 Amake/build_spot是忠华修改过后的,增加了一些参数,目前没有使用过,可以通过对比使用看看
+
+linux下环境变量
+PATH=$PATH:/usr/local/amake:/usr/local/pump/bin:$HOME/.local/bin:$HOME/bin:.
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+export PATH
+
+LD_LIBRARY_PATH=:.:
+export LD_LIBRARY_PATH
